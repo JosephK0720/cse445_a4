@@ -21,7 +21,7 @@
     <Name>Yellowstone</Name>
     <Phone>307-344-7381</Phone>
     <Phone>307-344-2014</Phone>
-    <Address NearestAirport="Bozeman">
+    <Address NearestAirport="Bozeman Yellowstone Intl">
       <Number>2</Number>
       <Street>Grand Loop Road</Street>
       <City>Yellowstone National Park</City>
@@ -34,7 +34,7 @@
     <Name>Yosemite</Name>
     <Phone>209-372-0200</Phone>
     <Phone>209-372-0266</Phone>
-    <Address NearestAirport="Fresno">
+    <Address NearestAirport="Fresno Yosemite Intl">
       <Number>9035</Number>
       <Street>Village Drive</Street>
       <City>Yosemite National Park</City>
@@ -46,7 +46,7 @@
   <NationalPark Rating="4.8">
     <Name>Zion</Name>
     <Phone>435-772-3256</Phone>
-    <Address NearestAirport="St. George">
+    <Address NearestAirport="St George Regional">
       <Number>1</Number>
       <Street>Zion Park Blvd</Street>
       <City>Springdale</City>
@@ -59,7 +59,7 @@
     <Name>Rocky Mountain</Name>
     <Phone>970-586-1206</Phone>
     <Phone>970-586-1207</Phone>
-    <Address NearestAirport="Denver">
+    <Address NearestAirport="Denver Intl">
       <Number>1000</Number>
       <Street>US-36</Street>
       <City>Estes Park</City>
@@ -71,7 +71,7 @@
   <NationalPark Rating="4.6">
     <Name>Acadia</Name>
     <Phone>207-288-3338</Phone>
-    <Address NearestAirport="Bangor">
+    <Address NearestAirport="Bangor Intl">
       <Number>25</Number>
       <Street>Bar Harbor Road</Street>
       <City>Bar Harbor</City>
@@ -84,7 +84,7 @@
     <Name>Glacier</Name>
     <Phone>406-888-7800</Phone>
     <Phone>406-888-7801</Phone>
-    <Address NearestAirport="Kalispell">
+    <Address NearestAirport="Glacier Park Intl">
       <Number>64</Number>
       <Street>Going-to-the-Sun Road</Street>
       <City>West Glacier</City>
@@ -109,7 +109,7 @@
     <Name>Olympic</Name>
     <Phone>360-565-3130</Phone>
     <Phone>360-565-3131</Phone>
-    <Address NearestAirport="Seattle">
+    <Address NearestAirport="Seattle-Tacoma Intl">
       <Number>600</Number>
       <Street>East Park Avenue</Street>
       <City>Port Angeles</City>
@@ -121,7 +121,7 @@
   <NationalPark Rating="4.7">
     <Name>Joshua Tree</Name>
     <Phone>760-367-5500</Phone>
-    <Address NearestAirport="Palm Springs">
+    <Address NearestAirport="Palm Springs Intl">
       <Number>74485</Number>
       <Street>National Park Drive</Street>
       <City>Twentynine Palms</City>
