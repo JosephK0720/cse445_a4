@@ -2,7 +2,9 @@
 <NationalPark xmlns="http://www.example.com/NationalParks"
               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
               xsi:schemaLocation="http://www.example.com/NationalParks NationalParks.xsd">
-              
+  
+  <!-- Error 1: Root element is NationalPark instead of NationalParks -->
+  
   <NationalPark Rating="4.9">
     <Name>Grand Canyon</Name>
     <Phone>928-638-7496</Phone>
@@ -18,9 +20,12 @@
   </NationalPark>
   
   <NationalPark>
+    <!-- Error 5: Two names provided -->
     <Name>Yellowstone</Name>
     <Name>Yellowstone National Park</Name>
-    <Address NearestAirport="Bozeman">
+    <!-- Error 3: Missing Phone element -->
+    <!-- Error 2: Missing required attribute NearestAirport on Address -->
+    <Address>
       <Number>2</Number>
       <Street>Grand Loop Road</Street>
       <City>Yellowstone National Park</City>
@@ -32,6 +37,7 @@
   <NationalPark Rating="4.7">
     <Name>Yosemite</Name>
     <Phone>209-372-0200</Phone>
+    <!-- Error 4: Address element has no closing tag -->
     <Address NearestAirport="Fresno">
       <Number>9035</Number>
       <Street>Village Drive</Street>
